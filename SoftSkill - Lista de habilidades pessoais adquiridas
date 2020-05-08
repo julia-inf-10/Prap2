@@ -37,7 +37,7 @@ Softskill public ( @Nullable  String  name , String  Learning , int  level, Stri
         hLearning = situação;
     }
     public  int  getLevel () {
-        retornar mLevel;
+        retornar hLevel;
     }
     público  vazio  setLevel ( int  level ) {
         hLevel = nivel;
