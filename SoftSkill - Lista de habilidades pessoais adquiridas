@@ -1,0 +1,53 @@
+       
+        private int hId
+     private String CreationDate;
+     private String habiName;
+     private String Learning;
+     private int level;
+   
+Softskill public ( @Nullable  String  name , String  Learning , int  level, String CreationDate ) {
+        habiName = nome;
+        Learning= situação;
+        levelh = nivel;
+        CreationDate = creationDate;
+    }   @PrimaryKey ( autoGenerate  =  true )
+    @NonNull
+    @ColumnInfo ( name  =  " SoftskillId " )
+    private  int hId;
+    @Nullable
+    @ColumnInfo ( name  =  " habiName " )
+    private  String habiName;
+ 
+    public  int  getId () {
+        return hID;
+    }
+    public  void  setId ( int  id ) {
+        hId = id;
+    }
+    public  String  getName () {
+        return hName;
+    }
+    public  void  setName ( nome da string  ) {
+        hName = nome;
+    }
+    public  String  getLearning () {
+        return hLearning;
+    }
+    public  void  setLearning ( Situação da String  ) {
+        hLearning = situação;
+    }
+    public  int  getLevel () {
+        retornar mLevel;
+    }
+    público  vazio  setLevel ( int  level ) {
+        hLevel = nivel;
+    }
+    public  String  getCreationDate () {
+        return mCreationDate;
+    }
+    public  void  setCreationDate ( String  creationDate ) {
+        mCreationDate = creationDate;
+    }
+    private  int mScore;
+    private  String mCreationDate;
+}
