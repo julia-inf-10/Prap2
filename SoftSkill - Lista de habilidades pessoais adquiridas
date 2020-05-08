@@ -1,16 +1,16 @@
-       
-        private int hId
+      private int hId;
      private String CreationDate;
      private String habiName;
-     private String Learning;
-     private int level;
+     private String hLearning  
+     private int hLevel;
    
 Softskill public ( @Nullable  String  name , String  Learning , int  level, String CreationDate ) {
         habiName = nome;
         Learning= situação;
         levelh = nivel;
         CreationDate = creationDate;
-    }   @PrimaryKey ( autoGenerate  =  true )
+    }
+    @PrimaryKey ( autoGenerate  =  true )
     @NonNull
     @ColumnInfo ( name  =  " SoftskillId " )
     private  int hId;
@@ -43,11 +43,12 @@ Softskill public ( @Nullable  String  name , String  Learning , int  level, Stri
         hLevel = nivel;
     }
     public  String  getCreationDate () {
-        return mCreationDate;
+        return hCreationDate;
     }
     public  void  setCreationDate ( String  creationDate ) {
-        mCreationDate = creationDate;
+        hCreationDate = creationDate;
     }
-    private  int mScore;
-    private  String mCreationDate;
-}
+    private  int hLevel;
+    private  String hCreationDate;
+} 
+       
